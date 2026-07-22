@@ -40,7 +40,7 @@ class stackLL:
             while temp:
                 print(temp.data)
                 print('--------')
-                break
+                temp=temp.next
         print()
     def search(self,target):
         if self.isEmpty():
